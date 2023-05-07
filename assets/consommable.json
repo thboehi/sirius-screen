@@ -1,0 +1,81 @@
+[
+    {
+        "name": "Coca-Cola",
+        "price": 3.5,
+        "type": "drink",
+        "img": "coca.png"
+    },
+    {
+        "name": "Coca-Cola Zero",
+        "price": 3.5,
+        "type": "drink",
+        "img": "cocazero.png"
+    },
+    {
+        "name": "Nestea Citron",
+        "price": 3.5,
+        "type": "drink",
+        "img": "nesteacitron.png"
+    },
+    {
+        "name": "Nestea Pêche",
+        "price": 3.5,
+        "type": "drink",
+        "img": "nesteapeche.png"
+    },
+    {
+        "name": "Rivella Rouge",
+        "price": 3.5,
+        "type": "drink",
+        "img": "rivella.png"
+    },
+    {
+        "name": "Valser Classic",
+        "price": 3.5,
+        "type": "drink",
+        "img": "valserclassic.png"
+    },
+    {
+        "name": "Valser Silence",
+        "price": 3.5,
+        "type": "drink",
+        "img": "valsersilence.png"
+    },
+    {
+        "name": "Limonade Citron",
+        "price": 4.5,
+        "type": "drink",
+        "img": "limcitr.png"
+    },
+    {
+        "name": "Limonade Pamplemousse",
+        "price": 4.5,
+        "type": "drink",
+        "img": "limpamp.png"
+    },
+    {
+        "name": "Limonade Orange",
+        "price": 4.5,
+        "type": "drink",
+        "img": "limor.png"
+    },
+    {
+        "name": "Docteur Gab's",
+        "price": 5,
+        "type": "drink",
+        "img": "placeholder.png",
+        "restricted": true
+    },
+    {
+        "name": "M&M's",
+        "price": 2.5,
+        "type": "food",
+        "img": "mm.png"
+    },
+    {
+        "name": "Snicker",
+        "price": 2.5,
+        "type": "food",
+        "img": "snicker.png"
+    }
+]

@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background-color: black;
+    color: #f2f4f3;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 50px 250px;
+}
+.main-type-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.main-titles{
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 900;
+}
+
+.main-subtitles{
+    align-self: center;
+    justify-self: center;
+    margin: 0 auto;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-style: italic;
+}
+.main-subtitles::before,
+.main-subtitles::after{
+    content: " - ";
+}
+
+.all-container{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.type-container{
+    background-color: #1b1b1b;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    box-sizing: border-box;
+    border: #f2f4f31e solid 2px;
+    position: relative;
+    gap: 20px;
+}
+
+.img{
+    height: 100px;
+    width: auto;
+}
+
+.title{
+    margin-top: 10px;
+    font-weight: 700;
+    text-align: right;
+    width: 150px;
+    background-color: #f2f4f33b;
+    color: #f2f4f3;
+    padding: 5px 10px;
+    border-radius: 10px 0 5px 0;
+    position: absolute;
+    bottom: 6px; right: 6px;
+}
+
+.price{
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 1rem;
+    font-style: italic;
+    color: #f2f4f3;
+    background-color: #ff5c5c;
+    padding: 5px 10px;
+    border-radius: 5px 0 10px 0;
+    position: absolute;
+    top: 2px; left: 7px;
+}
+
+.price::after{
+    font-weight: 400;
+    font-size: 0.6rem;
+    font-style: italic;
+    content: " CHF";
+}
