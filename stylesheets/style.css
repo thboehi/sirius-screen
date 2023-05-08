@@ -19,10 +19,24 @@ body{
 }
 
 #main-container{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
+    /* display: flex;
+    flex-direction: row;
+    gap: 100px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas: 
+    "drinks food"
+    "drinks pop-corns";
     padding: 50px 250px;
+}
+#main-drink-container{
+    grid-area: drinks;
+}
+#main-food-container{
+    grid-area: food;
+}
+#main-popcorn-container{
+    grid-area: pop-corns;
 }
 .main-type-container{
     display: flex;
@@ -81,13 +95,15 @@ body{
 
 .img{
     height: 100px;
+    max-width: 160px;
+    object-fit: contain;
     width: auto;
 }
 
 .title{
     margin-top: 10px;
     font-weight: 700;
-    text-align: right;
+    text-align: left;
     width: 150px;
     background-color: #f2f4f33b;
     color: #f2f4f3;
