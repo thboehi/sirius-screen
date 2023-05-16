@@ -14,7 +14,7 @@ body{
     display: flex;
     align-items: flex-start;
     justify-content: center;
-    background-color: black;
+    background-color: white;
     color: #f2f4f3;
 }
 
@@ -94,7 +94,7 @@ body{
 }
 
 .img{
-    height: 60px;
+    height: 100px;
     max-width: 160px;
     object-fit: contain;
     width: auto;
