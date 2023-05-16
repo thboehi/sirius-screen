@@ -3,6 +3,9 @@ const foodsContainer = document.getElementById("food-container");
 const popcornsContainer = document.getElementById("popcorns-container");
 let consommables = [];
 let totalConsommables = 0;
+setTimeout(() => {
+  location.reload()
+}, 30000);
 
 function getConsommables() {
   return fetch("./assets/consommable.json")
