@@ -25,12 +25,6 @@
         "img": "mm.png"
     },
     {
-        "name": "Snicker",
-        "price": 2.5,
-        "type": "food",
-        "img": "snicker.png"
-    },
-    {
         "name": "Kit-Kat",
         "price": 2.5,
         "type": "food",
